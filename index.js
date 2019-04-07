@@ -8,7 +8,7 @@ bot.on('ready', () => {
 console.log(`Logged in as ${bot.user.tag}!`);
 console.log("Streamstatus by yungdrew.")
 
-bot.user.setActivity(`The Premier | /help`, {
+bot.user.setActivity(`qpfpakco039kd`, {
 type: "STREAMING",
 url: "https://www.twitch.tv/ninja"})
     .then(presence => console.log(`Your Status has been set to  ${presence.game ? presence.game.none : 'none'}`))
