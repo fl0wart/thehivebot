@@ -3,7 +3,7 @@ const util = require('util');
 const TOKEN = process.env.TOKEN;
 
 exports.run = async (bot, message , args) => {
-if (message.author.id != '487534691663085569') return message.channel.send('❌ This command is only for **Developers**.');
+if (message.author.id != '523818319023833101') return message.channel.send('❌ This command is only for **Developers**.');
 let code = args.join(' ');            
 try {
         let ev = eval(code)
